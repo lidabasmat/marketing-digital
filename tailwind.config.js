@@ -6,22 +6,42 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            display: ['Open Sans', 'Helvetica', 'sans-serif'],
-            body: ['Open Sans', 'Helvetica', 'sans-serif'],
+            display: ['Poppins', 'Helvetica', 'sans-serif'],
+            body: ['Poppins', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
-            xs: ['0.75rem',      '1.5'],
+            xs: ['0.75rem',      '1.86'],
             sm: ['0.875rem',     '1.5'],
-            base: ['1rem',       '1.5'],
-            lg: ['1.125rem',     '1.75'],
+            base: ['1rem',       '2'],
+            lg: ['1.25rem',     '1.55'],
             xl: ['1.25rem',      '1.75'],
             '2xl': ['1.5rem',    '2'],
-            '3xl': ['1.875rem',  '2.5'],
-            '4xl': ['2.25rem',   '3'],
-            '5xl': ['3rem',      '3.5'],
+            '3xl': ['1.56rem',  '1.88'],
+            '4xl': ['1.875rem',   '1.87'],
+            '5xl': ['3.125rem',      '1.56'],
         },
         extend: {
             colors: {
+              red: {
+                100: '#FBE5E5',
+                500: '#DC0000',
+              },
+              blue: {
+                100: '#E8F0FC',
+                500: '#0058DC',
+              },
+              indigo: {
+                100: '#F6E3FB',
+                500: '#B000DC',
+              },
+              orange: {
+                500: '#E47500',
+              },
+              gray: {
+                100: '#898989',
+                300: '#525252',
+                500: '#F5F5F5',
+              },
             },
             margin: {
                 '1/12': '8.333333%',
