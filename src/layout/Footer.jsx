@@ -47,13 +47,13 @@ const Footer = () => {
                 <a href="/">
                   <img src={IconFacebookSource} className="" alt="facebook icon" />
                 </a>
-                <a href="/">
+                <a href="/" className="ml-5">
                   <img src={IconInstagramSource} className="" alt="instagram icon" />
                 </a>
-                <a href="/">
+                <a href="/" className="ml-5">
                   <img src={IconTwitterSource} className="" alt="twitter icon" />
                 </a>
-                <a href="/">
+                <a href="/" className="ml-5">
                   <img src={IconLinkedinSource} className="" alt="linkedin icon" />
                 </a>
               </div>
